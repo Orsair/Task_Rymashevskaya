@@ -1,0 +1,155 @@
+﻿html {
+    font-family: Tahoma;
+}
+
+body {
+    margin: 0;
+    line-height: 1.42857143;
+    background-color: #fff;
+}
+
+a {
+    color: #3a6d99;
+    text-decoration: none;
+}
+
+    a:focus, a:hover {
+        color: #3a6d99;
+        text-decoration: underline;
+    }
+
+    a:focus {
+        outline: dotted thin;
+        outline: -webkit-focus-ring-color auto 5px;
+        outline-offset: -2px;
+    }
+
+p {
+    margin: 0 0 10px;
+}
+
+hr {
+    color:#999;
+    border:none;
+    border-bottom: 1px solid #999;
+}
+
+.main {
+    background: #5682a3;
+    height: 226px;
+}
+
+.login_page {
+    margin: -131px auto 90px;
+    max-width: 404px;
+}
+
+.login_head_wrap {
+    height: 75px;
+}
+
+.login_head_submit_wrap {
+    float: right;
+    font-weight: 700;
+}
+
+.login_head_submit_btn {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 27px 15px 28px;
+    display: inline-block;
+    color: #fff;
+}
+
+    .login_head_submit_btn:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+.login_head_logo_link {
+    display: inline-block;
+    line-height: 30px;
+    padding: 23px 15px 22px;
+}
+
+a.login_head_logo_link {
+    text-decoration:none;
+}
+
+.icon-tg-logo {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 18px;
+}
+
+.icon-tg-title {
+    width: 62px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1px;
+}
+
+.login_form_wrap {
+    background: #fff;
+    padding: 44px 65px;
+    -webkit-box-shadow: 0 1px 1px rgba(97,127,152,.2),1px 0 0 rgba(97,127,152,.1),-1px 0 0 rgba(97,127,152,.1);
+    -moz-box-shadow: 0 1px 1px rgba(97,127,152,.2),1px 0 0 rgba(97,127,152,.1),-1px 0 0 rgba(97,127,152,.1);
+    box-shadow: 0 1px 1px rgba(97,127,152,.2),1px 0 0 rgba(97,127,152,.1),-1px 0 0 rgba(97,127,152,.1);
+    border-radius: 2px;
+    border: 0;
+    margin: 0;
+    max-width: none;
+}
+
+.login_form_head {
+    color: #222;
+    margin: 0 0 20px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.login_form_lead {
+    color: #999;
+    margin: 15px 0 30px;
+    font-size: 13px;
+    line-height: 160%;
+}
+
+.login_phone_country_input_group {
+    cursor: pointer;
+}
+
+.login_code {
+    float:left;
+    width:80px;
+}
+
+.login_phone {
+    float:left;
+}
+
+.login_footer_wrap {
+    color: #84a2bc;
+    font-size: 13px;
+    line-height: 16px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.arrow {
+    font-size:18px;
+}
+
+.inputs {
+    border:0px;
+    width:100%;
+}
+
+
+.text_country {
+    color: #999;
+    font-size: 13px;
+}
